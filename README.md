@@ -1,6 +1,6 @@
 # 📊 EDGE_DB34 – Advanced SQL Solutions
 
-This repository contains MySQL query solutions for the **Final Exam** and **Project** of course DB2434, focused on advanced SQL and applied database scenarios.
+This repository contains MySQL query solutions for the **Final Exam** and **Project** of course Database Management, focused on advanced SQL and applied database scenarios.
 
 ## 📁 Contents
 
@@ -17,10 +17,3 @@ This repository contains MySQL query solutions for the **Final Exam** and **Proj
 - Joins across multiple tables
 - Department-level performance analysis
 
-## 🏫 Schema Overview
-
-```sql
-Students(student_id, name, dob, department_id)
-Departments(department_id, department_name)
-Courses(course_id, course_name, department_id)
-Enrollments(enrollment_id, student_id, course_id, grade)
