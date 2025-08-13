@@ -24,7 +24,7 @@ WHERE salary > 50000;
 SELECT DISTINCT designation 
 FROM Employees;
 
--- . Delete employees in department 103```sql
+-- . Delete employees in department 103
 DELETE FROM Employees 
 WHERE dept_id = 103;
 
@@ -63,7 +63,7 @@ JOIN Assignments a ON p.proj_id = a.proj_id
 GROUP BY p.proj_name;
 
 
--- 5. Employees earning more than department average (4 marks):**
+-- 5. Employees earning more than department average 
 
 SELECT e.emp_name, e.salary, d.dept_name
 FROM Employees e
@@ -87,3 +87,4 @@ JOIN Projects p ON d.dept_id = p.dept_id
 GROUP BY d.dept_name
 HAVING COUNT(p.proj_id) > 2 AND SUM(p.budget) > 5000000
 ORDER BY total_budget DESC;
+
